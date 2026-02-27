@@ -1,6 +1,6 @@
 from django.db import models
-from core.models import BaseModel
-from companies.models import Company
+from app.core.models import BaseModel
+from app.companies.models import Company
 
 
 class Department(BaseModel):
